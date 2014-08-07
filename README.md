@@ -22,10 +22,22 @@ quit
 ## Restore from Backup
 
 - Install xcloner joomla extension, via *Install from URL*, `http://www.xcloner.com/download/8`
-- Get the backup from dropbox by pasting this command in your *terminal tab* and hitting `enter`
+- Paste the following commands into your *terminal tab* and hit `enter`
 
 ```
-wget https://www.dropbox.com/s/16om5gdp1ukbbil/urban_hands_backup.tar?dl=1 -O urban_hands_backup.tar
+sed -i "s/name='mysql_username' value=''/name='mysql_username' value='joomlauser'/g" XCloner.php
+sed -i "s/name='mysql_pass' value=''/name='mysql_pass' value='password'/g" XCloner.php
+sed -i "s/name='mysql_db' value=''/name='mysql_db' value='joomla'/g" XCloner.php
+wget https://www.dropbox.com/s/qenbzzqd3crt18q/urbanhands.tar?dl=1 -O urbanhands.tar
 ```
 
-- Click on *Box URL* add `/XCloner.php` to end of the URL to go to Xcloner restore page
+- Go to Xcloner restore page, click on *Box URL* add `/XCloner.php` to end of the URL
+- Click the **Import mysql database**, **Incremental sql import** buttons
+- Then begin the restore by clicking the **Start Install** button
+- Paste the following commands into your *terminal tab* and hit `enter`
+
+```
+rm TAR.php
+rm XCloner.php
+rm urbanhands.tar
+```
