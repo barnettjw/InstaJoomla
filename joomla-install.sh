@@ -4,7 +4,7 @@ wget http://joomlacode.org/gf/download/frsrelease/19524/159414/Joomla_3.3.1-Stab
 tar zxvf Joomla_3.3.1-Stable-Full_Package.tar.gz
 rm Joomla_3.3.1-Stable-Full_Package.tar.gz
 
-parts install php5 php5-apache2 php5-pdo-mysql php5-zlib mysql
+parts install php5 php5-apache2 php5-pdo-mysql php5-zlib php5-zip mysql
 parts start apache2 mysql
 
 touch startup.sh
