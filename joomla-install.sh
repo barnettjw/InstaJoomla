@@ -11,9 +11,9 @@ touch startup.sh
 echo "#!/bin/bash" >> startup.sh
 echo "parts stop apache2 mysql" >> startup.sh
 echo "parts start apache2 mysql" >> startup.sh
-chmod +x startup.sh
+chmod u+x startup.sh
+chmod u+x configuration.php
 
-touch joomla-db.sql
 echo "CREATE DATABASE joomla;" >> joomla-db.sql
 echo "CREATE USER joomlauser@localhost;" >> joomla-db.sql
 echo 'SET PASSWORD FOR joomlauser@localhost= PASSWORD("password");' >> joomla-db.sql
