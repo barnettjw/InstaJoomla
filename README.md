@@ -2,7 +2,7 @@
 
 ## Install Joomla
 
-- Get account at [codio.io](http://codio.io)
+- Get account at [codio.com](http://codio.com)
 - Create new codio box using this repo as base
 - Once in your codio project, open a *terminal* tab under the *Tools* menu
 - Paste the following commands into your *terminal tab* and hit `enter`
@@ -21,13 +21,11 @@ quit
 
 ## Restore from Backup
 
-- In the *terminal* tab run this command `chmod u+x xcloner-download.sh && ./xcloner-download.sh`
-- Install xcloner joomla extension, via *Install from Directory*, from `/home/codio/workspace/tmp/xcloner/` where we just downloaded the files to
-- Paste the following commands into your *terminal tab* and hit `enter`
+- Install xcloner joomla extension, via *Install from URL*, `http://www.xcloner.com/download/8`
+- Get the backup from dropbox by pasting this command in your *terminal tab* and hitting `enter`
 
-```bash
-cp ~/workspace/administrator/components/com_xcloner-backupandrestore/restore/* ~/workspace
-cp ~/workspace/administrator/backups/backup_2014-08-02_15-27_gizzen-antony.codio.io:3000-sql-nodrop.tar
+```
+wget https://www.dropbox.com/s/16om5gdp1ukbbil/urban_hands_backup.tar?dl=1 -O urban_hands_backup.tar
 ```
 
 - Click on *Box URL* add `/XCloner.php` to end of the URL to go to Xcloner restore page
