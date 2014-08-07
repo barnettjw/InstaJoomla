@@ -12,7 +12,7 @@ echo "#!/bin/bash" >> startup.sh
 echo "parts stop apache2 mysql" >> startup.sh
 echo "parts start apache2 mysql" >> startup.sh
 chmod u+x startup.sh
-chmod u+x configuration.php
+chmod u+w configuration.php
 
 echo "CREATE DATABASE joomla;" >> joomla-db.sql
 echo "CREATE USER joomlauser@localhost;" >> joomla-db.sql
