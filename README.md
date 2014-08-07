@@ -3,7 +3,7 @@
 ## Install Joomla
 
 - Get account at [codio.com](http://codio.com)
-- Create new codio box using this repo as base
+- Create new codio project by cloning this **git** repo `https://github.com/barnettjw/urban-hands.git`
 - Once in your codio project, open a *terminal* tab under the *Tools* menu
 - Paste the following commands into your *terminal tab* and hit `enter`
 
