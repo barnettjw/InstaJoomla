@@ -4,7 +4,7 @@ class JConfig {
 	public $offline_message = 'This site is down for maintenance.<br /> Please check back again soon.';
 	public $display_offline_message = '1';
 	public $offline_image = '';
-	public $sitename = 'Urban Hands';
+	public $sitename = 'Joomla Test Site';
 	public $editor = 'codemirror';
 	public $captcha = '0';
 	public $list_limit = '20';
@@ -31,8 +31,8 @@ class JConfig {
 	public $offset = 'America/New_York';
 	public $mailonline = '1';
 	public $mailer = 'mail';
-	public $mailfrom = 'james.barnett@city-gate.org';
-	public $fromname = 'Urban Hands';
+	public $mailfrom = 'joomla@example.com;
+	public $fromname = 'Joomla';
 	public $sendmail = '/usr/sbin/sendmail';
 	public $smtpauth = '0';
 	public $smtpuser = '';
