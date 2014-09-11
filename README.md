@@ -1,9 +1,7 @@
-# To re-create Urban Hands Website:
-
 ## Install Joomla
 
 - Get account at [codio.com](http://codio.com)
-- Create new codio project by cloning this **git** repo `https://github.com/barnettjw/urban-hands.git`
+- Create new codio project by cloning this **git** repo `https://github.com/barnettjw/InstaJoomla.git`
 - Once in your codio project, open a *terminal* tab under the *Tools* menu
 - Paste the following commands into your *terminal tab* and hit `enter`
 
@@ -19,6 +17,12 @@ quit
 - Under the *Project Index* menu select check *Box URL*
 - To log into your Joomla Backend just add `/administrator` to end of the URL, the default username & password is `admin`
 
+---
+
+If you have a XCloner Backup to restore ...
+
+## Download Backup tar file via `wget`
+
 ## Restore from Backup
 
 - Install xcloner joomla extension, via *Install from URL*, `http://www.xcloner.com/download/8`
@@ -28,7 +32,6 @@ quit
 sed -i "s/name='mysql_username' value=''/name='mysql_username' value='joomlauser'/g" XCloner.php
 sed -i "s/name='mysql_pass' value=''/name='mysql_pass' value='password'/g" XCloner.php
 sed -i "s/name='mysql_db' value=''/name='mysql_db' value='joomla'/g" XCloner.php
-wget https://www.dropbox.com/s/qenbzzqd3crt18q/urbanhands.tar?dl=1 -O urbanhands.tar
 ```
 
 - Go to Xcloner restore page, click on *Box URL* add `/XCloner.php` to end of the URL
