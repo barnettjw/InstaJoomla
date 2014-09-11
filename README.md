@@ -19,7 +19,7 @@ quit
 
 ---
 
-###### If you have a XCloner Backup to restore ...
+###### If you are moving Joomla instance via XCloner ...
 
 - **Download** Backup tar file via `wget`
 - Install xcloner joomla extension, via *Install from URL*, `http://www.xcloner.com/download/8`
