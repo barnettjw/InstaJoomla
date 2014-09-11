@@ -84,3 +84,4 @@ class JConfig {
 	public $cookie_path = '';
 	public $asset_id = '1';
 }
+ 
