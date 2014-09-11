@@ -1,4 +1,4 @@
-How to setup a Joomla Dev server using codio.
+###### How to setup a Joomla Dev server using codio.
 
 - Get account at [codio.com](http://codio.com)
 - Create new codio project by cloning this **git** repo `https://github.com/barnettjw/InstaJoomla.git`
@@ -19,7 +19,7 @@ quit
 
 ---
 
-If you have a XCloner Backup to restore ...
+###### If you have a XCloner Backup to restore ...
 
 - **Download** Backup tar file via `wget`
 - Install xcloner joomla extension, via *Install from URL*, `http://www.xcloner.com/download/8`
