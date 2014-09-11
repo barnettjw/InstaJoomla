@@ -21,7 +21,7 @@ quit
 
 If you have a XCloner Backup to restore ...
 
-- **Download Backup tar file via `wget`**
+- **Download** Backup tar file via `wget`
 - Install xcloner joomla extension, via *Install from URL*, `http://www.xcloner.com/download/8`
 - Paste the following commands into your *terminal tab* and hit `enter`
 
